@@ -143,14 +143,6 @@
 			}, 3000);
 		}
 
-		function showAlert() {
-			// Creates an alert if the uploaded file / url is not a PDF
-			var inv = {{flash | tojson}};
-			if (inv.localeCompare('pdf') == 0) {
-				document.getElementById("snackbar").innerHTML = "The link or file must be a PDF!";
-				showSnackbar();
-			}
-		}
     </script>
 </body>
 
