@@ -1,2 +1,2 @@
-# linkrot.dev
+# Linkrot Website
 Website for Linkrot Project
